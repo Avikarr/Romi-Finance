@@ -1,0 +1,471 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #171717;
+    font-family: sans-serif;
+    overflow: scroll;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #171717;
+    box-shadow: 0 4px 2px -2px grey;
+}
+
+.logo {
+    padding-right: 20px;
+}
+
+.logo p {
+    display: inline-flex;
+}
+
+.log {
+    display: inline-flex;
+    height: 4.15rem;
+    vertical-align: middle;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #a7a7a9;
+    margin: 0 15px;
+}
+
+.links a:hover {
+    color: white;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+}
+
+.trade-btn {
+    background-color: #3eb489;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.connect-wallet {
+    background: transparent;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin: 8px 5px 8px 5px;
+    padding: 5px 14px;
+    align-items: center;
+
+}
+
+.wall {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px;
+
+}
+
+
+
+
+.btn {
+    margin-left: 20px;
+    background: transparent;
+}
+
+.btn {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.separator {
+    content: '';
+    display: inline-block;
+    background: #cecece;
+    margin: 0px 4px;
+    height: 18px;
+    width: 1px;
+    vertical-align: top;
+
+}
+
+
+
+section {
+    color: white;
+}
+
+.launch {
+    background-color: #3eb489;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.home-text h1 {
+    font-size: 57px;
+    margin: 0px 0px 15px;
+    padding: 62px 32px 0px;
+    line-height: 4.8rem;
+}
+
+.home-text p {
+    font-size: 20px;
+    color: #cecece;
+    margin: 0px 0px 28px;
+    padding-left: 30px;
+    line-height: 1.8rem;
+}
+
+.launch {
+    margin-left: 30px;
+}
+
+
+
+
+/* Home Section */
+
+.container1 {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-top: 6.2rem;
+    padding-bottom: 1.5rem;
+    width: 100%;
+
+
+}
+
+.container1 img {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+}
+
+
+
+.info-block {
+    display: inline-flex;
+    border-radius: 4px;
+    max-width: 38rem;
+    align-items: center;
+    padding-top: 2.8rem;
+    padding-bottom: 2.8rem;
+    margin: 1.6rem 0;
+    box-shadow: 0px 5px 5px black;
+    border: 0.01px solid #171717;
+    padding-right: 1.5rem;
+    color: white;
+
+}
+
+.info-value {
+    width: 100%;
+}
+
+.dft-container{
+
+    max-width: 126.4rem;
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    margin-left: 0px;
+
+}
+
+
+/* Second Home Section */
+
+.Description {
+    padding: 56px 32px;
+    display: flex;
+}
+
+.title1 {
+    margin: 0px 0px 0px 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 350;
+    margin-left: 1rem;
+
+}
+
+.title2 {
+    margin: 0px 0px 0px 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 350;
+    margin-left: 1rem;
+
+}
+
+.title3 {
+    margin: 0px 0px 0px 8px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 350;
+    margin-left: 1rem;
+
+}
+
+.liquid {
+    padding: 0px 0px 15px;
+}
+
+.cost {
+    padding: 0px 0px 15px;
+}
+
+.swap {
+    padding: 0px 0px 15px;
+}
+
+
+.desc1 p {
+    font-size: 18px;
+    line-height: 1.5rem;
+    max-width: 100%;
+    color: #cecece;
+    padding-left: 30px;
+}
+
+.desc2 p {
+    font-size: 18px;
+    line-height: 1.5rem;
+    max-width: 100%;
+    color: #cecece;
+    padding-left: 30px;
+}
+
+.desc3 p {
+    font-size: 18px;
+    line-height: 1.5rem;
+    max-width: 100%;
+    color: #cecece;
+    padding-left: 30px;
+}
+
+.home2 {
+    padding-left: 9.2rem;
+    padding-right: 9.2rem;
+}
+
+/* Token Section */
+
+.token-options {
+    display: inline-flex;
+    padding-left: 10px;
+    padding-right: 40px;
+    justify-content: space-between;
+
+}
+
+.token {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0px 27px;
+    margin: 0px 32px;
+    padding-top: 50px;
+}
+
+.romi {
+    margin: 0px 8px 0px 0px;
+}
+
+.opt1 h5 {
+    display: inline-flex;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+
+.opt2 h5 {
+    display: inline-flex;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.opt1 {
+    border: 1px solid grey;
+    border-radius: 1%;
+    float: left;
+    padding: 15px;
+    margin-right: 80px;
+    margin-left: 50px;
+    padding-right: 40px;
+}
+
+.opt1 h4 {
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+
+}
+
+.opt1 p {
+    color: #cecece;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.opt2 {
+    border: 1px solid grey;
+    border-radius: 1%;
+    float: right;
+    padding: 15px;
+    padding-right: 40px;
+}
+
+.opt2 h4 {
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.opt2 p {
+    color: #cecece;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.buy {
+    background-color: #3eb489;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.read {
+    background: transparent;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin: 8px 5px 8px 5px;
+    padding: 8px 16px;
+    align-items: center;
+    border-radius: 2px;
+}
+
+hr {
+    color: #cecece;
+    margin-top: 70px;
+}
+
+
+/* Footer Section */
+
+.nlogo {
+    display: inline-block;
+    height: 4.15rem;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer-logo p {
+    color: #fff;
+    display: inline-flex;
+}
+
+.footer-logo {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.social {
+    text-align: center;
+    font-size: 35px;
+}
+
+#twi {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#med {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#git {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#tel {
+    color: #a7a7a9;
+    padding-right: 55px;
+}
+
+#dis {
+    color: #a7a7a9;
+
+}
+
+#twi:hover {
+    color: white;
+}
+
+#med:hover {
+    color: white;
+}
+
+#git:hover {
+    color: white;
+}
+
+#tel:hover {
+    color: white;
+}
+
+#dis:hover {
+    color: white;
+}
+
+.link {
+    margin-top: 15px;
+    padding-left: 450px;
+    margin-bottom: 10px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #a7a7a9;
+    margin: 0 15px;
+}
+
+.link a:hover {
+    color: white;
+}
